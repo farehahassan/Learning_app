@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:learning_app/Splash_screen.dart';
-import 'package:learning_app/color.dart';
 
 void main() {
   runApp(const MyApp());
