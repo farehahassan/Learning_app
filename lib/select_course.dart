@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:learning_app/color.dart';
 import 'package:chips_choice_null_safety/chips_choice_null_safety.dart';
+import 'package:learning_app/home.dart';
+// import 'package:learning_app/widgets/nav.dart';
 
 class SelectCourse extends StatefulWidget {
   const SelectCourse({Key? key}) : super(key: key);
@@ -102,7 +104,7 @@ class _SelectCourseState extends State<SelectCourse> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: ((context) => const SelectCourse())));
+                            builder: ((context) => const Home())));
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: purple,
